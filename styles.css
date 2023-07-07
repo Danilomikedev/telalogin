@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(to bottom, rgba(19, 157, 234, 1), rgba(19, 157, 234, 1), #FF5C00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container-login {
+    width: 80%;
+    max-width: 500px;
+    margin: 80px auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.dbank {
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Blinker', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.login-form {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-inscrever {
+    background-color: #FF5C00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-entrar {
+    background-color: #D9D9D9;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-inscrever:hover, .btn-entrar:hover {
+    opacity: 0.8;
+}
